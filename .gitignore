@@ -1,2 +1,19 @@
 
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore environment variables
 .env
+
+# Ignore logs
+logs
+*.log
+
+# Ignore cache files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore IDE-specific files (optional)
+.vscode/
+.DS_Store
